@@ -52,8 +52,30 @@ main {
   text-align: justify;
 
   width: 100%;
-  height: calc(100% - 20px);
+  height: calc(100% - (35px*2));
 
   display: flex;
   align-items: center;
+}
+
+#resultado {
+  height: 35px;
+  width: fit-content;
+  padding: 6px;
+  border-radius: 4px;
+
+  margin: 0 auto;
+  
+  display: flex;
+  align-items: center;
+
+  background-color: whitesmoke;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#resultado:hover {
+  background-color: lightslategray;
+  color: white;
+  transition: .6s;
 }
